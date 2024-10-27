@@ -3,7 +3,7 @@
 public class NutritionPlanService(IRepository<NutritionPlan> repository) : IService
 {
     private IRepository<NutritionPlan> Repository { get; init; } = repository;
-    private IRepository<Client> ClientRepository { get; init; }
+    public IRepository<Client> ClientRepository { get; init; }
     public async Task CalculateNutritionAsync(NutritionPlanDTO plan, ClientDTO client, CancellationToken cancellationToken = default)
     {
         Client localClient;
@@ -49,7 +49,7 @@ public class NutritionPlanService(IRepository<NutritionPlan> repository) : IServ
         };
     }
      
-    private (double Protein, double Carbs, double Fats) CalculateMacros(double calories)
+    public (double Protein, double Carbs, double Fats) CalculateMacros(double calories)
     {
         double protein = calories * 0.3 / 4; // 30% калорий из белков
         double carbs = calories * 0.5 / 4; // 50% калорий из углеводов

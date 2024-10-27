@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports_Nutrition_Applicatio
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports_Nutrition_Infrastructure", "Sports_Nutrition_Infrastructure\Sports_Nutrition_Infrastructure.csproj", "{423E147D-8CBE-4B1F-B4D7-BFDE817F873E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports_Nutrition_Api", "Sports_Nutrition_Api\Sports_Nutrition_Api.csproj", "{13E80C2D-2122-4A1B-91BC-C7B54274C577}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sports_Nutrition_Api", "Sports_Nutrition_Api\Sports_Nutrition_Api.csproj", "{13E80C2D-2122-4A1B-91BC-C7B54274C577}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sports_Nutrition_Application_Tests", "Sports_Nutrition_Tests\Sports_Nutrition_Application_Tests.csproj", "{CF45E4E7-7947-4019-8078-95C38C5781BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{13E80C2D-2122-4A1B-91BC-C7B54274C577}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{13E80C2D-2122-4A1B-91BC-C7B54274C577}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13E80C2D-2122-4A1B-91BC-C7B54274C577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF45E4E7-7947-4019-8078-95C38C5781BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF45E4E7-7947-4019-8078-95C38C5781BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF45E4E7-7947-4019-8078-95C38C5781BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF45E4E7-7947-4019-8078-95C38C5781BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
